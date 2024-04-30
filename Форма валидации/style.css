@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(125, 97, 46, 0.49);
+}
+.wrap {
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 370px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(32, 32, 37, 1);
+        
+}
+.mail_wrap{
+    display: flex;
+    flex-direction: row;
+}
+.password_wrap{
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    border-radius: 5px;
+    font-size: 10px;
+    width: 170px;
+    height: 20px;
+    margin: 7px 7px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 22px;
+}
+.input_button {
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: 0 solid silver;
+    width: 130px;
+    background-color: rgba(255, 162, 0, 1);
+    margin: 0 10px 15px;
+    cursor: pointer;
+}
+
+#errorMailMassage {
+    margin-top: 11px;
+}
+
+#successMailMassage{
+    margin-top: 11px;
+}
